@@ -7,6 +7,9 @@
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }  
 
   body {
@@ -19,7 +22,6 @@ header {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
   }
   
   header a {
@@ -32,7 +34,6 @@ header {
   }
 
   header nav {
-    float: right;
     margin: 7px 0;
   }
 
@@ -83,7 +84,6 @@ section {
     background-position: center;
     position: relative;
   }
-/* Hero Style End */
 
 /*hero-form styling */
 .hero-form {
@@ -127,7 +127,9 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
+/* Hero Style End */
 
+/* Styling for the "steps" */
 .intro {
   text-align: center;
 }
@@ -186,8 +188,10 @@ section {
   font-size: 38px;
 }
 
+/*Trainer Section Styles */
 .trainers {
   text-align: center;
+  display:block
 }
 
 .trainer {
